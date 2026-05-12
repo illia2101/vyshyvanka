@@ -9,7 +9,8 @@ public class EmbroideryCanvas extends Canvas {
     private static final int CELL = 26;
     public EmbroideryCanvas() {
 
-        super(900, 700);
+        super(900, 605);
+        setStyle("-fx-background-color: transparent;");
 
         GraphicsContext gc =
                 getGraphicsContext2D();

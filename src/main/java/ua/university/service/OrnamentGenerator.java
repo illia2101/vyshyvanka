@@ -94,6 +94,7 @@ public class OrnamentGenerator {
         }
 
         timeline.play();
+
     }
 
     private static void drawCell(
@@ -130,11 +131,11 @@ public class OrnamentGenerator {
         startX = (startX / CELL) * CELL;
         startY = (startY / CELL) * CELL;
 
-        drawPattern(gc, startX, startY + 50);
+        drawPattern(gc, startX, startY + 102);
 
         drawName(
                 gc,
-                startY - 480,
+                startY - 452,
                 patternHeight
         );
     }
