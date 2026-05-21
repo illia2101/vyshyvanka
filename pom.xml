@@ -15,7 +15,11 @@
         <javafx.version>17.0.10</javafx.version>
     </properties>
     <dependencies>
-
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-swing</artifactId>
+            <version>21</version>
+        </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
